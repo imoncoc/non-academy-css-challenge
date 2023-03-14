@@ -32,15 +32,25 @@ body {
     top: 0px;
 }
 
-.child-1 {
+/* .child-1 {
     left: 45% !important;
     top: 20% !important;
     width: 80px;
     height: 80px;
     background-color: var(--color-main);
     background-color: var(--color-main-black);
-    /* background-color: var(--color-main-white); */
     border-radius: 5px;
+    z-index: 1;
+} */
+
+.child-1 {
+    left: 41% !important;
+    top: 20% !important;
+    width: 120px;
+    height: 80px;
+    background-color: var(--color-main);
+    background-color: var(--color-main-black);
+    border-radius: 10px;
     z-index: 1;
 }
 
@@ -57,7 +67,6 @@ body {
     top: 28% !important;
     width: 150px;
     height: 150px;
-    background-color: var(--color-main-white);
     background-color: var(--color-main-black);
     border-radius: 50%;
 }
@@ -67,7 +76,6 @@ body {
     top: 50% !important;
     width: 250px;
     height: 250px;
-    background-color: var(--color-main-white);
     background-color: var(--color-main-black);
     border-radius: 50%;
 }
@@ -86,14 +94,13 @@ body {
     top: 50% !important;
     width: 250px;
     height: 250px;
-    background-color: var(--color-main-white);
     background-color: var(--color-main-black);
     border-radius: 50%;
 }
 
 .inner-1 {
     position: absolute;
-    left: 38% !important;
+    left: 45% !important;
     bottom: 0% !important;
     width: 20px;
     height: 30px;
@@ -102,7 +109,7 @@ body {
 
 .inner-2 {
     position: absolute;
-    left: 30% !important;
+    left: 40% !important;
     bottom: 30% !important;
     background: var(--color-main);
     width: 12px;
@@ -112,7 +119,7 @@ body {
 
 .inner-3 {
     position: absolute;
-    left: 54% !important;
+    left: 57% !important;
     bottom: 30% !important;
     background: var(--color-main);
     width: 12px;
