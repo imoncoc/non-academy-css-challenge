@@ -1,0 +1,121 @@
+:root {
+    --color-main: #bb9457;
+    /* --color-main-black: #001d3d; */
+    --color-main-black: #000814;
+    --color-main-alt: #d62828;
+    --color-main-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-main-black);
+}
+
+.parent {
+    width: 600px;
+    height: 400px;
+    /* background-color: var(--color-main-white); */
+    background-color: var(--color-main-black);
+    margin: 100px auto;
+    position: relative;
+    /* border-radius: 50%; */
+}
+
+.parent > div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.child-1 {
+    left: 45% !important;
+    top: 20% !important;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-main);
+    background-color: var(--color-main-black);
+    /* background-color: var(--color-main-white); */
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.child-2 {
+    left: 18% !important;
+    top: 28% !important;
+    width: 400px;
+    height: 130px;
+    background-color: var(--color-main);
+}
+
+.child-3 {
+    left: 5% !important;
+    top: 28% !important;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-main-white);
+    background-color: var(--color-main-black);
+    border-radius: 50%;
+}
+
+.child-4 {
+    left: 15% !important;
+    top: 50% !important;
+    width: 250px;
+    height: 250px;
+    background-color: var(--color-main-white);
+    background-color: var(--color-main-black);
+    border-radius: 50%;
+}
+
+.child-5 {
+    left: 72% !important;
+    top: 28% !important;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-main-black);
+    border-radius: 50%;
+}
+
+.child-6 {
+    left: 46% !important;
+    top: 50% !important;
+    width: 250px;
+    height: 250px;
+    background-color: var(--color-main-white);
+    background-color: var(--color-main-black);
+    border-radius: 50%;
+}
+
+.inner-1 {
+    position: absolute;
+    left: 38% !important;
+    bottom: 0% !important;
+    width: 20px;
+    height: 30px;
+    background: var(--color-main);
+}
+
+.inner-2 {
+    position: absolute;
+    left: 30% !important;
+    bottom: 30% !important;
+    background: var(--color-main);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.inner-3 {
+    position: absolute;
+    left: 54% !important;
+    bottom: 30% !important;
+    background: var(--color-main);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
